@@ -1,4 +1,3 @@
-// © Dan Urbanowicz, October 4th 2021
 // Ad slots will be lazy-loaded with the config below
 // Ad slots will be refreshed if viewable
 
