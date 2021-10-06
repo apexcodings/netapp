@@ -1,0 +1,8 @@
+---
+eleventyExcludeFromCollections: true
+permalink: /crux/dist/js/vmr-crux-gpt.min.js
+---
+{%- set js -%}
+    {% include "src/crux/js/vmr-crux-gpt.js" %}
+{%- endset -%}
+{{ js | jsmin | safe }}

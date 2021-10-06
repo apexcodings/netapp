@@ -1,0 +1,10 @@
+[build]
+  publish = "_site"
+  command = "eleventy"
+  environment = { ELEVENTY_ENV = "production" }
+
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+    Access-Control-Allow-Origin = "*"

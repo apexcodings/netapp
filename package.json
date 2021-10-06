@@ -1,0 +1,25 @@
+{
+  "name": "vmr-crux-gpt",
+  "version": "1.0.0",
+  "description": "Google Publisher Tag script builder",
+  "scripts": {
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danurbanowicz/vmr-gpt-assets"
+  },
+  "author": {
+    "name": "Dan Urbanowicz",
+    "email": "dan.urbanowicz@gmail.com",
+    "url": "https://github.com/danurbanowicz"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "dotenv": "^10.0.0",
+    "uglify-js": "^3.14.2"
+  }
+}
