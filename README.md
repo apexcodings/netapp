@@ -1,17 +1,17 @@
-# vmr-crux-gpt
+# vmr-gpt-assets
 
 VMR GPT Client Assets Builder and Deployment Workflow
 
-## CDN
+## Example usage
 
-Minified
+Add inside `<head>` tag after the Google gpt.js script
 ```
-<script src="https://cdn.vmrcommunications.com/dist/js/vmr-crux-gpt.min.js"></script>
+<script async src="https://{ domain }.com/crux/dist/js/vmr-crux-gpt.min.js"></script>
 ```
 
 Un-minified
 ```
-<script src="https://cdn.vmrcommunications.com/dist/js/vmr-crux-gpt.js"></script>
+<script async src="https://{ domain }.com/crux/dist/js/vmr-crux-gpt.js"></script>
 ```
 
 ## Local development
@@ -34,7 +34,12 @@ cd /my/path/to/vmr-gpt-assets
 npm install
 ```
 
-### 4. Build files
+### 4. Add .env file and environment variable for development
+```
+echo 'ELEVENTY_ENV=development' > .env
+```
+
+### 5. Build files
 
 ```
 npx @11ty/eleventy
