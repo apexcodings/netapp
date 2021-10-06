@@ -6,7 +6,7 @@ VMR GPT Client Assets Builder and Deployment Workflow
 
 Add inside `<head>` tag after the Google gpt.js library script
 ```
-<script async src="https://{ domain }.com/crux/dist/js/vmr-crux-gpt.min.js"></script>
+<script async src="https://cdn2.vmrcommunications.com/crux/dist/js/vmr-crux-gpt.min.js"></script>
 ```
 
 Ad slots should be defined inside the HTML body like this (note there is no inline script tag!)
