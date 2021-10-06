@@ -1,4 +1,4 @@
-# vmr-gpt-assets
+# Crux
 
 VMR GPT Client Assets Builder and Deployment Workflow
 
