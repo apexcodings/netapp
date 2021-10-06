@@ -9,9 +9,11 @@ Add inside `<head>` tag after the Google gpt.js script
 <script async src="https://{ domain }.com/crux/dist/js/vmr-crux-gpt.min.js"></script>
 ```
 
-Un-minified
+Ad slots should be defined in the HTML body like this (note there is no inline script tag!)
 ```
-<script async src="https://{ domain }.com/crux/dist/js/vmr-crux-gpt.js"></script>
+<!-- GPT AdSlot 1 for Ad unit 'CruxNow.com_New_300x250' ### Size: [[300,250]] -->
+<div id='div-gpt-ad-3284456-1'></div>
+<!-- End AdSlot 1 -->
 ```
 
 ## Local development
