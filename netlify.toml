@@ -3,8 +3,8 @@
   command = "eleventy"
   environment = { ELEVENTY_ENV = "production" }
 
-# [[headers]]
-#   for = "/*"
+[[headers]]
+  for = "/*"
 
-#   [headers.values]
-#     Access-Control-Allow-Origin = "*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
