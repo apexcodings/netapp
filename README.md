@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f16f5242-f2d7-4f88-8f26-09659a44b050/deploy-status)](https://app.netlify.com/sites/vmrcan/deploys)
+
 # Crux
 
 VMR GPT Client Assets Builder and Deployment Workflow
