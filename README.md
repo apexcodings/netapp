@@ -23,13 +23,13 @@ Ad slots should be defined inside the HTML body like this (note there is no inli
 ### 1. Clone this repository
 
 ```
-git clone https://github.com/danurbanowicz/vmr-gpt-assets.git vmr-gpt-assets
+git clone https://github.com/VMRCommunications/General.git General
 ```
 
 ### 2. Navigate to the directory
 
 ```
-cd /my/path/to/vmr-gpt-assets
+cd /my/path/to/General
 ```
 
 ### 3. Install dependencies locally

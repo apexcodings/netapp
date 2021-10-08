@@ -1,5 +1,5 @@
 {
-  "name": "vmr-gpt-assets",
+  "name": "General",
   "version": "1.0.0",
   "description": "Google Publisher Tag script builder",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danurbanowicz/vmr-gpt-assets"
+    "url": "https://github.com/VMRCommunications/General"
   },
   "author": {
     "name": "Dan Urbanowicz",
