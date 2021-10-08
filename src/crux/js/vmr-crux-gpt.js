@@ -1,7 +1,7 @@
 // Ad slots will be lazy-loaded with the config below
 // Ad slots will be refreshed if viewable
 
-// CONFIGURATION BELOW
+// CONFIGURATION BELOW-TEST
 
 // Number of seconds a slot should be viewable before it refreshes
 const SECONDS_TO_WAIT_AFTER_VIEWABILITY = 30;
