@@ -4,7 +4,7 @@
 // CONFIGURATION BELOW-TEST-123-456
 
 // Number of seconds a slot should be viewable before it refreshes
-const SECONDS_TO_WAIT_AFTER_VIEWABILITY = 300;
+const SECONDS_TO_WAIT_AFTER_VIEWABILITY = 30000;
 
 // Fetch slots within 5 viewports
 const FETCH_MARGIN_PERCENT = 500;
