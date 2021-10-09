@@ -10,7 +10,7 @@ const SECONDS_TO_WAIT_AFTER_VIEWABILITY = 30000;
 const FETCH_MARGIN_PERCENT = 500;
 
 // Render slots within 1 viewport
-const RENDER_MARGIN_PERCENT = 0;
+const RENDER_MARGIN_PERCENT = 2;
 
 // Double the above values on mobile, where viewports are smaller
 // and users tend to scroll faster
