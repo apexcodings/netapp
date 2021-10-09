@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f16f5242-f2d7-4f88-8f26-09659a44b050/deploy-status)](https://app.netlify.com/sites/vmrcan/deploys)
 
-# Crux
+# General
 
 VMR GPT Client Assets Builder and Deployment Workflow
 
@@ -23,13 +23,13 @@ Ad slots should be defined inside the HTML body like this (note there is no inli
 ### 1. Clone this repository
 
 ```
-git clone https://github.com/danurbanowicz/vmr-gpt-assets.git vmr-gpt-assets
+git clone https://github.com/VMRCommunications/General.git General
 ```
 
 ### 2. Navigate to the directory
 
 ```
-cd /my/path/to/vmr-gpt-assets
+cd /my/path/to/General
 ```
 
 ### 3. Install dependencies locally
