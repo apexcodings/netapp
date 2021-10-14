@@ -1,0 +1,8 @@
+---
+eleventyExcludeFromCollections: true
+permalink: /desales/dist/js/vmr-desales-gpt.min.js
+---
+{%- set js -%}
+    {% include "src/desales/js/vmr-desales-gpt.js" %}
+{%- endset -%}
+{{ js | jsmin | safe }}
