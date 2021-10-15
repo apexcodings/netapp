@@ -1,16 +1,14 @@
 // Ad slots will be lazy-loaded with the config below
 // Ad slots will be refreshed if viewable
 
-// CONFIGURATION BELOW-TEST-123-456-999
-
 // Number of seconds a slot should be viewable before it refreshes
-const SECONDS_TO_WAIT_AFTER_VIEWABILITY = 30000;
+const SECONDS_TO_WAIT_AFTER_VIEWABILITY = 45;
 
 // Fetch slots within 5 viewports
 const FETCH_MARGIN_PERCENT = 500;
 
 // Render slots within 1 viewport
-const RENDER_MARGIN_PERCENT = 0;
+const RENDER_MARGIN_PERCENT = 100;
 
 // Double the above values on mobile, where viewports are smaller
 // and users tend to scroll faster
