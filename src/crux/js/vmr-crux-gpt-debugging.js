@@ -94,7 +94,6 @@ googletag.cmd.push(function() {
 
     let slot = event.slot;
     let advert = slot.getSlotElementId();
-    let alreadyVisible = false;
     
     // Only track visibility and fire refreshes if refresh is enabled on the slot
     if (slot.getTargeting('refresh').indexOf('true') > -1) {
@@ -104,19 +103,11 @@ googletag.cmd.push(function() {
 
         console.log('Slot ' + advert + ' is visible');
 
-        // Has the slot already been visible
-        if (alreadyVisible == false) {
-
-          // clear timers
-          clearTimers();
-          
-          // set a new timer
-          setTimer(slot,advert);
-
-          // set the visibility history
-          alreadyVisible = true;
-
-        }
+        // clear timers
+        clearTimers();
+        
+        // set a new timer
+        setTimer(slot,advert);
 
       } else { // hidden
 
