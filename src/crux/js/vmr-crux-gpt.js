@@ -109,7 +109,7 @@ googletag.cmd.push(function() {
           clearTimers();
           
           // set a new timer
-          setTimer(slot, advert);
+          setTimer(slot);
 
           // set the visibility history
           alreadyVisible = true;
