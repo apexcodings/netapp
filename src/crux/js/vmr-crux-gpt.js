@@ -27,13 +27,13 @@ window.vmr = {
   SECONDS_UNTIL_USER_INACTIVE: 90,
 
   // Fetch ad slots within X viewports
-  FETCH_MARGIN_PERCENT: 100,
+  FETCH_MARGIN_PERCENT: 0,
 
   // Render ad slots within X viewports
-  RENDER_MARGIN_PERCENT: 100,
+  RENDER_MARGIN_PERCENT: 0,
 
   // Multiply the above values on mobile where viewports are smaller
-  MOBILE_SCALING: 2.0
+  MOBILE_SCALING: 0
 
 };
 
