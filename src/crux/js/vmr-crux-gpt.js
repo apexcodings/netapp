@@ -15,6 +15,9 @@ window.vmr = {
   REFRESH_VALUE_SLOT_6: 'true',
   REFRESH_VALUE_SLOT_7: 'true',
   REFRESH_VALUE_SLOT_8: 'true',
+  // STICKY AD SLOT BELOW
+  REFRESH_VALUE_SLOT_9: 'true',
+  // STICKY AD SLOT ABOVE
 
   // The percentage of the ad slot that should be in the viewport to be considered visible
   // Must be < 100
@@ -80,6 +83,12 @@ googletag.cmd.push(function() {
     .setTargeting('refresh', vmr.REFRESH_VALUE_SLOT_8)
     .setTargeting('adlocation', ['a'])
     .addService(googletag.pubads());
+  
+   // STICKY AD SLOT BELOW
+    googletag.defineSlot('/4580722/CruxNow.com_New_300x250', [300,250], 'div-gpt-ad-3284456-9')
+    .setTargeting('refresh', vmr.REFRESH_VALUE_SLOT_9)
+    .setTargeting('adlocation', ['s'])
+     // STICKY AD SLOT ABOVE
 
   // Enable ad slot lazy loading
   googletag.pubads().enableLazyLoad({
@@ -130,6 +139,9 @@ googletag.cmd.push(function() {
   googletag.display('div-gpt-ad-3284456-6');
   googletag.display('div-gpt-ad-3284456-7');
   googletag.display('div-gpt-ad-3284456-8');
+  // STICKY AD SLOT BELOW
+  googletag.display('div-gpt-ad-3284456-9');
+  // STICKY AD SLOT ABOVE
 
 });
 
