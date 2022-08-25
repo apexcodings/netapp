@@ -1,8 +1,8 @@
 ---
 eleventyExcludeFromCollections: true
-permalink: /desales/dist/js/vmr-ch-gpt.min.js
+permalink: /desales/dist/js/vmr-ch1-gpt.min.js
 ---
 {%- set js -%}
-    {% include "src/catholicherald/js/vmr-desales-gpt.js" %}
+    {% include "src/ch1/js/ch.js" %}
 {%- endset -%}
 {{ js | jsmin | safe }}
